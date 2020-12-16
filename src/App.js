@@ -17,20 +17,20 @@ function App() {
         <Helmet>
             <title>{ '𝗠𝗨𝗦𝗢 𝗞𝗨𝗦𝗢®' }</title>
         </Helmet>
-        <div className="bg-image bg-image__HD">
+        {/*<div className="bg-image bg-image__HD">
             <img className="bg-image__content" src={loadingImage} alt="musokuso"/>
         </div>
         <div className="bg-image bg-image__LD">
             <img className="bg-image__content" src={loadingImageMobile} alt="musokuso"/>
-        </div>
+        </div>*/}
         <div className={"bg-video bg-video__HD"}>
-            <video className={'bg-video__content'} id={"video"} onClick={() => setIsMuted(!isMuted)} autoPlay={true} muted={isMuted} loop={true} playsinline={true} playsInline={true}>
+            <video className={'bg-video__content'} id={"video"} onClick={() => setIsMuted(!isMuted)} poster={loadingImage} autoPlay={true} muted={isMuted} loop={true} playsinline={true} playsInline={true}>
                 <source src={videoHD} type="video/mp4"/>
                 Your browser is not supported
             </video>
         </div>
         <div className="bg-video bg-video__LD">
-            <video className="bg-video__content" onClick={() => setIsMutedMobile(!isMutedMobile)} id="video2" autoPlay={true} muted={isMutedMobile} loop={true} playsinline={true} playsInline={true}>
+            <video className="bg-video__content" onClick={() => setIsMutedMobile(!isMutedMobile)} id="video2" poster={loadingImageMobile} autoPlay={true} muted={isMutedMobile} loop={true} playsinline={true} playsInline={true}>
                 <source src={videoMobile} type="video/mp4"/>
                     Your browser is not supported
             </video>
