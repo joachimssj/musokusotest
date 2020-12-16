@@ -64,48 +64,6 @@ body {
   object-fit: cover;
 }
 
-.bg-video__LD {
-  display: none;
-}
-
-@media only screen and (max-width: 650px) {
-  .bg-video__HD {
-    display: none;
-  }
-
-  .bg-video__LD {
-    display: block;
-  }
-}
 
 
-.bg-image {
-  position: absolute;
-  top:0;
-  left:0;
-  height: 100%;
-  width: 100%;
-  z-index: -2;
-  overflow: hidden;
-}
-
-.bg-image__content {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.bg-image__LD {
-  display: none;
-}
-
-@media only screen and (max-width: 650px) {
-  .bg-image__HD {
-    display: none;
-  }
-
-  .bg-image__LD {
-    display: block;
-  }
-}
 
