@@ -13,8 +13,6 @@ function App() {
     const [isMuted, setIsMuted] = useState(true);
     const [isMutedMobile, setIsMutedMobile] = useState(true);
 
-    alert(isMobile)
-
     return (
     <div className="App">
         <Helmet>
