@@ -18,12 +18,6 @@ function App() {
         <Helmet>
             <title>{ '𝗠𝗨𝗦𝗢 𝗞𝗨𝗦𝗢®' }</title>
         </Helmet>
-        {/*<div className="bg-image bg-image__HD">
-            <img className="bg-image__content" src={loadingImage} alt="musokuso"/>
-        </div>
-        <div className="bg-image bg-image__LD">
-            <img className="bg-image__content" src={loadingImageMobile} alt="musokuso"/>
-        </div>*/}
         {(isMobile)?
             <div className="bg-video bg-video__LD">
                 <video className="bg-video__content" onClick={() => setIsMutedMobile(!isMutedMobile)} id="video2"

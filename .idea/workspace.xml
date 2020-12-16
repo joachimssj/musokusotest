@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f45df07e-6224-411e-9233-cd41998e64b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,9 @@
       <workItem from="1608067584313" duration="382000" />
       <workItem from="1608068195165" duration="613000" />
       <workItem from="1608114547691" duration="1840000" />
-      <workItem from="1608121322067" duration="858000" />
+      <workItem from="1608121322067" duration="2148000" />
+      <workItem from="1608131792555" duration="5000" />
+      <workItem from="1608137677242" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <created>1608046709076</created>
@@ -99,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608121722885</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="delete test react-device-detect">
+      <created>1608122437173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608122437173</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,16 +120,17 @@
     <MESSAGE value="save" />
     <MESSAGE value="update loading image method" />
     <MESSAGE value="mobile switch &amp; delete css useless" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile switch &amp; delete css useless" />
+    <MESSAGE value="delete test react-device-detect" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete test react-device-detect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1070" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608044849982">
       <screen x="0" y="23" width="1920" height="1012" />
     </state>
     <state x="1070" y="283" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1012@0.23.1920.1012" timestamp="1608044849982" />
-    <state x="911" y="133" key="CommitChangelistDialog2" timestamp="1608121722490">
+    <state x="911" y="133" key="CommitChangelistDialog2" timestamp="1608122436947">
       <screen x="0" y="23" width="1920" height="1012" />
     </state>
-    <state x="911" y="133" key="CommitChangelistDialog2/0.23.1920.1012@0.23.1920.1012" timestamp="1608121722490" />
+    <state x="911" y="133" key="CommitChangelistDialog2/0.23.1920.1012@0.23.1920.1012" timestamp="1608122436947" />
   </component>
 </project>
